@@ -1,24 +1,23 @@
 // These colors are specific to the theme. Do not use in a package!
 
-@very-light-gray: #dbe6ec;
-@light-gray: #99a9b3;
-@gray: #67747c;
-@dark-gray: #3b444f;
-@very-dark-gray: #2c3643;
+@white: hsl(190, 8%, 88%);
+@very-light-gray: hsl(211, 20%, 78%);
+@gray: #3d424b;
+@dark-gray: hsl(220, 10%, 35%);
+// @very-dark-gray: hsl(222, 15%, 22%);
+@very-dark-gray: #2F3542;
 
-@cyan: #0fdebd;
-@blue: #b2ddff;
-@purple: #ff708e;
-@green: #16c98d;
-@red: #ff8684;
-@orange: #ffc83f;
-@light-orange: #feef6d;
+@light-gray: saturate(mix(@very-light-gray, @very-dark-gray, 55%), 0%);
 
-@softblue: #8abee5;
-@softgreen: #c7e6aa;
+// @cyan: hsl(186, 52%, 54%);
+@cyan: #44C0C6;
 
-@flatgreen: #5FDD9D;
-@flatcyan: #9CF1F4;
-@flatpink: #FD84AE;
-@flatgrass: #5FB4AE;
-@flatskin: #778ADE;
+@blue:   @cyan;
+@purple: @cyan;
+//@orange: hsl(15, 79%, 66%);
+@orange: #FC8458;
+@yellow: #FFCA18;
+@green:  #cae359;
+@red:    hsl(0, 50%, 55%);
+//@light-orange: hsl(36, 43%, 70%);
+@light-orange: #D1BC92;
